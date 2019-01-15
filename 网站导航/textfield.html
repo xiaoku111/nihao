@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+	</head>
+	<body>
+		<!-- 文本输入框 -->
+		<!-- form表单标签 action提交的地址
+		 method提交方式get post
+		 -->
+		<form>
+			<!-- 隐藏域
+			 主要用来存放页面上一些ID信息-->
+			<input type="hidden" value="adfafa" name="uid"/>
+		用户名：<input type="text" name="username" placeholder="请输入用户名" /><br />
+		密码：<input type="password" /><br />
+		身份证:<input type="file" /><br />
+		性别：<input type="radio" name="sex" />男<input type="radio" name="sex" />女<br />
+		爱好：<input type="checkbox" />抽烟<input type="checkbox" />喝酒<input type="checkbox" />烫头<br />
+		择偶要求：<textarea cols="40" rows="4"></textarea>
+		籍贯：<select>
+			<option>请选择</option>
+			<option>北京</option>
+			<option>上海</option>
+			<option>哈尔滨</option>
+		</select>
+		<br />
+		出生日期:<input type="datetime-local" />
+		<br />
+		<input type="submit" value="提交" />
+		<input type="button" value="普通按钮" />
+		<input type="reset" value="重置按钮" />
+		</form>
+	</body>
+</html>
